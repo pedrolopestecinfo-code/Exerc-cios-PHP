@@ -15,10 +15,10 @@
         <input type:"text" size="40" name="nome" required></input><br>
 
         <label>Turma: </label><br>
-        <input type:"text" size="5" name="turma" required></input><br>
+        <input type:"text" size="40" name="turma" required></input><br>
 
         <label>Idade: </label><br>
-        <input type:"number" name="idade" required></input><br>
+        <input type="number" min="0" max="100" ><br> 
         
         <button type="submit">Enviar</button>
     </form>
