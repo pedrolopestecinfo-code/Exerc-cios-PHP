@@ -18,7 +18,7 @@
         <input type:"text" size="40" name="turma" required></input><br>
 
         <label>Idade: </label><br>
-        <input type="number" min="0" max="100" ><br> 
+        <input type="number" min="0" max="100" name="idade"><br> 
         
         <button type="submit">Enviar</button>
     </form>
